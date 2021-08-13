@@ -2,9 +2,19 @@
 <html>
 <head>
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <div class="score-container">Player Score: <span class="player-score">0</span></div>
+        <div class="score-container">Computer Score: <span class="computer-score">0</span></div>
+        <div>
+            <button data-selection="rock">Rock</button>
+            <button data-selection="paper">Paper</button>
+            <button data-selection="scissors">Scissors</button>
+        </div>
+        <div class="msg">First to five points.</div>
+    </main>
 </body>
 </html>
