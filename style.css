@@ -2,7 +2,7 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
